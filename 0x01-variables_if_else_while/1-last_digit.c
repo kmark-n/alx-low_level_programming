@@ -6,9 +6,9 @@
  * main - Entry point
  * assigning a random number to variable n each time it's exeecuted
  * the variable to store a different value every time the program is run
- * if variable is greater than 5: the string should be "and is greater than 5"
- * if variable is 0: the string should be "and is 0"
- * if variable is less than 6 and not 0: the string should be "and is less than 6 and not 0"
+ * if value is greater than 5: the string should be "and is greater than 5"
+ * if value is 0: the string should be "and is 0"
+ * if value is < than 6 and not equal to 0: string "and is less than 6 and not 0"
  * Return: (0)
  */
 int main(void)
