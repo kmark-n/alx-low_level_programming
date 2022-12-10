@@ -1,1 +1,1 @@
-Solving tasks using C codes
+Solving tasks while learning to program in C
