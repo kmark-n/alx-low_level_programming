@@ -8,7 +8,7 @@
  * the variable to store a different value every time the program is run
  * if value is greater than 5: the string should be "and is greater than 5"
  * if value is 0: the string should be "and is 0"
- * if value is < than 6 and not equal to 0: string "and is less than 6 and not 0"
+ * if value is < than 6 and not equal 0: string "and is less than 6 and not 0"
  * Return: (0)
  */
 int main(void)
