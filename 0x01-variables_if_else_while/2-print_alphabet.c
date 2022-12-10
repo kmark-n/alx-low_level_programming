@@ -8,10 +8,11 @@
  * only use putchar function
  *Return: (0)
  */
+
 int main(void)
 {
 char x = 'a';
-while (x <= 'a')
+while (x <= 'z')
 {
 putchar(x);
 x++;
