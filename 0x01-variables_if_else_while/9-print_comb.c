@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  * print a combo of single digit numbers
  * should be in ascending order
  * to be seperated by comma and space
