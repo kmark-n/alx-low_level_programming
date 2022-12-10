@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -11,11 +13,11 @@
 
 int main(void)
 {
-char 1 = 'z';
-while (1 >= 'a')
+char x = 'z';
+while (x >= 'a')
 {
-putchar(1);
-1--;
+putchar(x);
+x--;
 }
 putchar('\n');
 return (0);
