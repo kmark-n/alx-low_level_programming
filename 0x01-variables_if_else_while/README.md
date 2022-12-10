@@ -1,1 +1,1 @@
-Tasks on variables, if, else and while
+Solving C variables, if, else and while tasks
