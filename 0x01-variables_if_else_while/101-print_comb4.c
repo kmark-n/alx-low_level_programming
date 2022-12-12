@@ -9,6 +9,7 @@
  * six times only
  */
 int main(void)
+{
 int c;
 int d;
 int e = 0;
