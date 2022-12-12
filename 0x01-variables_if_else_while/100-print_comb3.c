@@ -9,26 +9,33 @@
  * to be used only 5 times
  * Return: 0
  */
+
 int main(void)
 {
-int n1 = 48;
-int n2;
-while (n1 <= 57);
-{
-n2 = n1 + 1;
-while (n2 <= 57)
-{
-putchar(n1);
-putchar(n2);
-if (n1 != 56 || n2 != 57)
-{
-putchar(',');
-putchar(' ');
-}
-n2++;
-}
-n1++;
-}
-putchar('\n');
-return (0);
+	int c;
+	int d = 0;
+
+	while (d < 10)
+	{
+		c = 0;
+		while (c < 10)
+		{
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
+
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+
+			c++;
+		}
+		d++;
+	}
+	putchar('\n');
+	return (0);
 }
