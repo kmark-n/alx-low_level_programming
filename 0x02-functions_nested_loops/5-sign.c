@@ -3,6 +3,7 @@
 /**
  * print_sign - Entry point
  * printing the sign of a number
+ * @n: The input number to check
  * Return: 0
  */
 
@@ -18,7 +19,7 @@ else if (n < 0)
 _putchar(45);
 return (-1);
 }
-else 
+else
 {
 _putchar(48);
 return (0);
