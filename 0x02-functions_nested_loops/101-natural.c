@@ -20,6 +20,6 @@ sum +=c;
 }
 c++;
 }
-print("%d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
