@@ -2,7 +2,7 @@
 
 /**
  * _abs - Entry point
- *@x: The input number to check 
+ *@x: The input number to check
  * Return: int
  */
 
