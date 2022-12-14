@@ -2,21 +2,18 @@
 
 /**
  *  print_last_digit - Entry point
- *  @n: the int we will use for the argument of the function
- *  Return: an integer value
+ * @x: The input number to check
+ *  Return: int
  */
 
-int print_last_digit(int n)
+int print_last_digit(int x)
 {
-int last;
+x = x % 10;
 
-last = n % 10;
+if (x < 0)
+x = x * (-1);
 
-if (last < 0)
-{
-last = last * (-1);
+_putchar(x + '0');
 
-_putchar(last + '0');
-}
-return (last);
+return (x);
 }
