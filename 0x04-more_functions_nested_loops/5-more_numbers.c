@@ -2,8 +2,7 @@
 
 /**
  * void more_numbers(void) - prints 10 times numbers
- * @x: character assigned to an integer
- * @y: character assigned to an integer
+ * 
  * Return: 0
  */
 
