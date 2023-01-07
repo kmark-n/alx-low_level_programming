@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * factorial - function that returns the factorial 
+ * factorial - function that returns the factorial
  * of a given number
  * @n: assigned for an integer
  * Return: int
