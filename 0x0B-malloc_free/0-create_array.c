@@ -1,7 +1,8 @@
 #include <stdlib.h>
 
 /**
- * *create_array - function that creates an array of chars, with a specific char
+ * *create_array - function that creates an array of chars
+ * with a specific char
  * @size: input size
  * @c: input char
  * Return: char
