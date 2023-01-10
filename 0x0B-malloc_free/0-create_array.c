@@ -14,7 +14,7 @@ unsigned int i = 0;
 
 if (size != 0)
 {
-ar = malloc(size * size of (char));
+ar = malloc(size * sizeof(char));
 }
 else
 {
