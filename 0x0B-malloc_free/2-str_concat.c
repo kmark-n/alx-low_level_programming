@@ -32,7 +32,7 @@ while (s2[j] != '\0')
 j++;
 }
 j++;
-cat = malloc((i + j) * sizeof(*cat));
+cat = malloc((i + j) *sizeof(*cat));
 if (cat == NULL)
 {
 return (NULL);
