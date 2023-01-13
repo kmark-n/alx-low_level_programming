@@ -8,3 +8,5 @@ int is_prime_number(int n);
 int _putchar(char c);
 int getNumSqr(int num, int i);
 int getNumPrim(int num, int i);
+int is_palindrome(char *s);
+int get_pal(char *s, int len);

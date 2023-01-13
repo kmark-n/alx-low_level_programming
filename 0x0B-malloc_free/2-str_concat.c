@@ -6,14 +6,11 @@
  * @s2: input char 2
  * Return: char
  */
-
 char *str_concat(char *s1, char *s2)
 {
 char *cat;
 char *nul = "";
 unsigned int i, j, x, y;
-
-
 i = j = x = y = 0;
 if (s1 == NULL)
 {
