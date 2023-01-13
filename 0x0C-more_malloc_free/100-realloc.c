@@ -43,7 +43,6 @@ _memcpy(reaptr, ptr, old_size);
 }
 free(ptr);
 return (reaptr);
-
 }
 
 /**
