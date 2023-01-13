@@ -38,9 +38,8 @@ free(ptr);
 return (NULL);
 }
 if (new_size > old_size)
-{
 _memcpy(reaptr, ptr, old_size);
-}
+
 free(ptr);
 return (reaptr);
 }
