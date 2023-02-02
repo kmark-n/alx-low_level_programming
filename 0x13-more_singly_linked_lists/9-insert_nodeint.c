@@ -44,7 +44,7 @@ while (i < idx - 1)
 temp = temp->next;
 if (temp == NULL && idx - i > 0)
 {
-free (new_node);
+free(new_node);
 return (NULL);
 }
 i++;
