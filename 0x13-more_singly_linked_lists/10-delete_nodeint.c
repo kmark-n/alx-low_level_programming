@@ -32,7 +32,7 @@ else
 {
 while (i < index - 1)
 {
-temp = temp ->next;
+temp = temp->next;
 if (temp == NULL)
 {
 return (-1);
