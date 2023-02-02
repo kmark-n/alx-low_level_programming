@@ -3,7 +3,7 @@
 
 /**
  * free_list - function that frees a list
- * @head - pointer to the head
+ * @head - input header pointer
  * Return: nothing
  */
 
