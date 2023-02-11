@@ -31,7 +31,7 @@ return (0);
 fd = open(filename, O_RDWR);
 if (fd == -1)
 {
-free (buff);
+free(buff);
 return (0);
 }
 fd_read = read(fd, buff, letters);
